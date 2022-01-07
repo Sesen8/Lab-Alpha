@@ -9,13 +9,13 @@ int main() {
     const int SIZE = 10;
     int position, value;
 
-    for ( int i= 0; i<15; ++i){
+    for ( int i= 0; i < 15; ++i){
         position = LinearSearch(myData, SIZE, 1);
         if (position == -1){
             cout << i << " not found in the array" << endl;
         }
         else {
-            cout << i << " found in position" << endl;
+            cout << i << " found in position " << LinearSearch(myData, SIZE, i) << endl;
         }
     }
 
