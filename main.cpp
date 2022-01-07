@@ -10,7 +10,7 @@ int main() {
     int position, value;
 
     for ( int i= 0; i < 15; ++i){
-        position = LinearSearch(myData, SIZE, 1);
+        position = LinearSearch(myData, SIZE, i);
         if (position == -1){
             cout << i << " not found in the array" << endl;
         }
