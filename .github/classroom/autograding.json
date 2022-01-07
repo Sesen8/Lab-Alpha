@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Zero-to-Fourteen",
+      "setup": "g++ -std=c++14 main.cpp module.cpp -o alpha",
+      "run": "./alpha",
+      "input": "",
+      "output": "0 found in position 6\r\n1 found in position 3\r\n2 found in position 5\r\n3 found in position 1\r\n4 found in position 0\r\n5 found in position 9\r\n6 found in position 2\r\n7 not found in the array\r\n8 found in position 7\r\n9 not found in the array\r\n10 not found in the array\r\n11 not found in the array\r\n12 found in position 8\r\n13 not found in the array\r\n14 not found in the array",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
